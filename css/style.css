@@ -9582,7 +9582,7 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-page.jpg), no-repeat center center;
   background-size: cover;
 }
 
@@ -9805,5 +9805,23 @@ h6,
 @media (max-width: 1000px) {
   .sign-up {
     display: none;
+  }
+}
+
+.about-page {
+  display: block;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 900px) {
+  .about-page {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) {
+  .about-page {
+    width: 100%;
   }
 }

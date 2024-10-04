@@ -9825,3 +9825,51 @@ h6,
     width: 100%;
   }
 }
+
+.navbar-nav .drop-hotolbor {
+  list-style: none;
+  padding-left: 0;
+}
+.navbar-nav .drop-hotolbor ul {
+  list-style: none;
+  padding: 0;
+}
+.dropdown {
+  z-index: 999;
+  position: absolute;
+  background: white;
+  width: 268px;
+  display: none;
+}
+.dropdown li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dropdown li a {
+  color: black;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.dropdown li:hover a{
+  color: #7AB730;
+}
+.dropdown li:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.hotolbor {
+  position: relative;
+}
+.navbar-nav li:hover .dropdown {
+  display: block;
+}
+
+.info {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-top: 50px;
+}

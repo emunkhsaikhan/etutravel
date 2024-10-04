@@ -9781,3 +9781,29 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.copyright-text {
+  color: #ffa500;
+}
+
+.container-footer {
+  background: #212121;
+  width: 100%;
+}
+
+.container-footer-second {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.sign-up {
+  width: 33%;
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .sign-up {
+    display: none;
+  }
+}
